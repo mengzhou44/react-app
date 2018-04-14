@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <h2>here are some h2 text</h2>
       </div>
     );
   }
