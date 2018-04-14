@@ -2754,6 +2754,16 @@ section {
   font-size: 90%;
   line-height: 145%; }
 
+.clearfix {
+  zoom: 1; }
+
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
 .button:link,
 .button:visited,
 input[type=submit] {
@@ -2850,6 +2860,35 @@ header .nav li a:active {
   line-height: 145%;
   width: 70%;
   margin-left: 15%; }
+
+.section-meals {
+  padding: 0; }
+
+.meals-showcase {
+  list-style: none;
+  width: 100%; }
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%; }
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000000; }
+
+.meal-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s; }
+
+.meal-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03); }
 
 * {
   margin: 0;
