@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 
 import Header from './_common/header';
+import Features from './home/features';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Header />
-        <h2>here are some h2 text</h2>
+        <Features />
       </div>
     );
   }
