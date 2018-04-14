@@ -4,6 +4,7 @@ import Header from './_common/header';
 import Features from './home/features';
 import Meals from './home/meals';
 import Steps from './home/steps';
+import Cities from './home/cities';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Features />
         <Meals />
         <Steps />
+        <Cities />
       </div>
     );
   }
