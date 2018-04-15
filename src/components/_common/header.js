@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Button from './button';
 
 export default (props) => {
     return (
@@ -20,8 +19,13 @@ export default (props) => {
             </nav>
             <div className='hero-text-box'>
                 <h1>Goodbye junk food.<br />Hello super healthy meals.</h1>
-                <Button>I'm hungry</Button>
-                <Button ghost>Show me more</Button>
+                <a className='button button-full js--scroll-to-plans' href='#'>
+                    I'm hungry
+                </a>
+                <a className='button button-border js--scroll-to-start' href='#'>
+                    Show me more
+                </a>
+
             </div>
         </header>
     );

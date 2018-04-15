@@ -75,6 +75,13 @@ footer p {
     margin-top: 20px;
 }
 
-.footer-heart {
-    color: '#ea0000'; padding: 0 3px;
+ 
+
+#createdBy {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#createdBy:hover {
+    color: #ddd;
 }

@@ -24,7 +24,7 @@ export default (props) => {
                 </div>
             </div>
             <div className='row'>
-                <p>
+                <p id='createdBy'>
                     @2018  Easy Express Solutions Inc.
                 </p>
 

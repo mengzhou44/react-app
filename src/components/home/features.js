@@ -2,7 +2,7 @@ import React from 'react';
 
 export default (props) => {
     return (
-        <section className='section-features'>
+        <section className='section-features js--section-features'>
             <div className='row'>
                 <h2>Get food fast &mdash; not fast food</h2>
                 <p className='long-copy'>
