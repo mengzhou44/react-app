@@ -6,7 +6,7 @@ import Meals from './home/meals';
 import Steps from './home/steps';
 import Cities from './home/cities';
 import Testimonials from './home/testimonials';
-
+import Plans from './home/plans';
 
 class App extends Component {
   render() {
@@ -18,6 +18,7 @@ class App extends Component {
         <Steps />
         <Cities />
         <Testimonials />
+        <Plans />
       </div>
     );
   }

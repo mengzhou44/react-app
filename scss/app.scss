@@ -1,9 +1,8 @@
 //scss --watch --sourcemap=none scss/app.scss:public/style.css
 
-@import './0-external/0-external-dir';
-@import './1-base/1-base-dir';
-@import './2-layout/2-layout-dir';
-@import './3-components/3-components-dir';
+@import './0-external/0-external';
+@import './1-base/1-base';
+@import './2-components/2-components';
 
 
  
