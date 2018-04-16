@@ -2,7 +2,7 @@ import React from 'react';
 
 export default (props) => {
     return (
-        <section className='section-steps'>
+        <section className='section-steps' id='works'>
             <div className='row'>
                 <h2>How it works &mdash; Simple as 1, 2, 3</h2>
             </div>

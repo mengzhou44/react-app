@@ -2,7 +2,7 @@ import React from 'react';
 
 export default (props) => {
     return (
-        <section>
+        <section id='cities'>
             <div className='row'>
                 <h2>We're currently in these cities</h2>
             </div>

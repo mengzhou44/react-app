@@ -3,6 +3,13 @@
     display: block; 
     color: $color-orange;
     margin-bottom: 10px; 
+    transform: translateY(-5px);
+    transition: transform 0.2s;
+}
+
+.icon-big:hover {
+  cursor: pointer;
+  transform: translateY(0px);
 }
 
 .icon-small { 
