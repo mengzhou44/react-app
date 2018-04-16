@@ -1,6 +1,6 @@
 
 .contact-form {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -26,4 +26,38 @@ input[type=checkbox] {
     margin: 10px 5px 10px 0;
 }
 
+#yes-please {
+    font-size: 90%;
+}
+
+.map-box {
+    width: 100%;
+    height: 500px; 
+    position: relative;
+    z-index: 0;
+}
+
+.map {
+    width: 100%;
+    height: 500px; 
+}
+
+.form-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    width: 50%;
+    height: 100%;
+    background-color:  rgba(255,255,255,0.8);
+    padding-top: 20px;
+}
+
+.form-box h2 {
+    font-size: 150%; 
+}
+
+.form-box label {
+    font-size: 90%; 
+}
 

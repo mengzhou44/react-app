@@ -44,5 +44,22 @@ $(document).ready(function () {
             offset: '50%'
         });
 
+    /* maps */
+
+    var map = new GMaps({
+        div: '.map',
+        lat: 50.8950484,
+        lng: -113.98,
+        zoom: 12
+    });
+
+    map.addMarker({
+        lat: 50.8950484,
+        lng: -114.076325,
+        infoWindow: {
+            content: '<p>Easy Express Solutions Inc.</p>'
+        }
+    });
 });
+
 
